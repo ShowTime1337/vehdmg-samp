@@ -1,6 +1,6 @@
 Vehicle damage system for SA-MP. (0.3.7)
 
-  native GetVehicleParams(vehicleid, type);
+	native GetVehicleParams(vehicleid, type);
 	native SetVehicleParams(vehicleid, type, status, delay = 0);
 	native GetVehicleBoot(vehicleid, &Float:x, &Float:y, &Float:z);
 	native GetVehicleHood(vehicleid, &Float:x, &Float:y, &Float:z);
